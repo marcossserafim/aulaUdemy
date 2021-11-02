@@ -1,8 +1,10 @@
-function criarProduto() {
+function criarProduto(nome, preco) {
     return {
-        Nome:'...',
-        preco: 45
+        nome,
+        preco,
+        desconto: 0.1
     }
 }
 
-console.log(criarProduto())
+console.log(criarProduto('notebook', 2199.49))
+console.log(criarProduto('iPad', 1199.49))
