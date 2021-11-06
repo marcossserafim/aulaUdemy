@@ -13,4 +13,8 @@ objeto = {
     }
 }
 
-objeto.processamento(3, 4, 5)
+objeto.processamento() // Foco passou a ser o Objeto
+
+// Principios importantes
+//1. abstração
+//2. encapsulamento
